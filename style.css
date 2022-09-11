@@ -78,7 +78,7 @@ nav .list ul li a:hover{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color:rgb(255, 255, 255);
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bold;
     margin-top: 0.25rem;
     margin-bottom: 0.5rem;
@@ -293,7 +293,7 @@ height: auto;
 .topc5 h1{
     position: relative;
     width: 100%;
-    font-size: 5rem;
+    font-size: 4rem;
     opacity: .05;
     color: black;
     text-align: center;
@@ -432,7 +432,16 @@ height: auto;
     background-color: rgb(245, 245, 245);
     padding-top: 30px;
 }
-
+@media screen and (max-width : 700px)
+{
+    .con7{
+        margin-top: 150px!important;
+    }
+    .botc5 .p1{
+        width: 30%;
+        
+    }
+}
 @media screen and (min-width : 991px){
     .list7{
         display: flex;
@@ -463,6 +472,7 @@ height: auto;
     .list7 li a:hover{
         color: rgb(32, 201, 151)
     }
+   
 }
 .imgc7{
     width: 88%;   
